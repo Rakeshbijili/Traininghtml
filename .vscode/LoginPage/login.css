@@ -1,0 +1,87 @@
+*{color: white;}
+#container{
+
+    /*border: solid green 1px;*/
+    height: 300px;
+    width: 80%;
+    margin:auto;
+    /*browser will calculate brings center*/
+    background-image:url(myimage.jpeg) ;
+    background-size: 100%;
+    /*to make pic fit in container*/
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    display:flex;
+    border-radius: 5px;    
+
+}
+
+.login{
+
+    width:50%;
+    
+    /* border: solid red 1px;  */
+}
+
+#welcomebackin{
+
+    
+    /* border: solid purple 1px; */
+    width:80%;
+    margin:auto;
+    text-align: center;
+    
+}
+
+#a1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#welcomeback{
+
+    display:flex;
+    flex-direction: column;
+    color: white;
+    
+}
+
+#loginaccountparent{
+
+    /* border: solid white 1px; */
+    display: flex;
+}
+
+#loginAccount{
+
+    /* border:solid white 1px; */
+    height: 200px;
+    width: 90% ;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#text123{
+
+    font-size: 10px;
+    line-height: 1;
+}
+
+.input1{
+
+    color:black
+}
+
+#keepMein{
+
+    font-size: 10px;
+
+}
+
+#subs{
+
+    
+    background-color: blueviolet;
+    border-radius: 5px;
+}
